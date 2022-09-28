@@ -1,0 +1,22 @@
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title>Time Targeting Report</title>
+</head>
+<body>
+  <h1>Time Targeting Report</h1>
+  <p>
+    Boss, <%= bossname %> and thank you for assigning me this time targeting task. See Results below:
+  </p>
+  
+  <h2>Results</h2>
+
+  <h3>Hours of the Day</h3>
+    <p>KEY: [":hour"(0-23), number of occurrences]</p>
+    <%= sorted_hours %>
+
+  <h3>Days of the Week</h3>
+    <p>KEY: [":DOW"(0-6), number of occurrences]</p>
+    <%= sorted_days %>
+</body>
+</html>
